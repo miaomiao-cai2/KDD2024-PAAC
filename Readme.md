@@ -24,10 +24,10 @@ For models with LightGCN as backbone, For example:
 
 - PCCA  Training:
 
-## yelp2018
+#### yelp2018
 
 python PAAC_main.py --dataset_name yelp2018 --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
 
-## gowalla
+#### gowalla
 
 python PAAC_main.py --dataset_name gowalla --layers_list '[6]' --cl_rate_list '[5]' --align_reg_list '[50]' --lambada_list '[0.2]' --gama_list '[0.2]'
