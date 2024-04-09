@@ -1,6 +1,5 @@
 import numpy as np
 import math
-from metrics import IDCG,GINI
 import faiss
 import numba as nb
 
