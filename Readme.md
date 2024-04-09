@@ -22,8 +22,6 @@ Official code of "Popularity-Aware Alignment and Contrast for Mitigating Popular
 
 For models with LightGCN as backbone, For example:
 
-- PCCA  Training:
-
 #### yelp2018
 
 python PAAC_main.py --dataset_name yelp2018 --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
