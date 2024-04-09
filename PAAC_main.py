@@ -6,7 +6,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from tqdm import tqdm
 import math
-from scipy.spatial.distance import cosine
 import scipy as scipy
 
 import os
