@@ -1,5 +1,9 @@
 # Supplementary Materials for Rebuttal to Reviewer-A2Zq
+We sincerely appreciate the thoughtful comments, efforts, and time invested by the reviewers. Due to the character limit in the main document, this supplementary material provides detailed explanations and clarifications on various issues. Thank you for your understanding and for your valuable contributions to improving our work.
 
+**Q1-Brief: Embedding separation.**
+
+**A:** We offer visual results from our quantitative analysis.
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,3 +30,10 @@
 
 </body>
 </html>
+
+
+**Q2&Q4-Brief: Future directions and related work.**
+
+
+
+
