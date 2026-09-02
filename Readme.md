@@ -18,20 +18,6 @@
 
 ## 📖 Overview
 
-Collaborative Filtering (CF) recommenders are known to suffer from **popularity bias**: because interactions in real-world datasets are long-tailed, models tend to learn much better representations for popular items than for unpopular ones, which both hurts accuracy on the long tail and reinforces the Matthew effect.
-
-We identify two persistent challenges behind this bias:
-
-1. **Unpopular-item overfitting** — with very few supervisory signals, representations of unpopular items are poorly learned and generalize badly to unseen interactions.
-2. **Representation separation** — popular and unpopular items are pushed into distinct regions of the embedding space, which existing contrastive-learning-based debiasing methods can inadvertently worsen.
-
-To address both issues, we propose **PAAC (Popularity-Aware Alignment and Contrast)**, which combines:
-
-- A **popularity-aware supervised alignment** module that transfers supervisory signal from popular to unpopular items interacted with by the same user, and
-- A **re-weighting contrastive learning** module that rebalances positive/negative sample weights across popularity groups to reduce representation separation.
-
-PAAC is backbone-agnostic and introduces **no additional trainable parameters**. Instantiated on top of LightGCN, it consistently outperforms strong debiasing baselines (IPS, MACR, InvCF, Adap-τ, SimGCL) on Yelp2018, Gowalla, and Amazon-Book under an unbiased (uniformly distributed) test setting.
-
 <p align="center">
   <img src="architecture.png" alt="PAAC architecture: Supervised Alignment Module and Re-weighting Contrast Module" width="100%">
 </p>
