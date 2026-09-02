@@ -33,7 +33,7 @@ To address both issues, we propose **PAAC (Popularity-Aware Alignment and Contra
 PAAC is backbone-agnostic and introduces **no additional trainable parameters**. Instantiated on top of LightGCN, it consistently outperforms strong debiasing baselines (IPS, MACR, InvCF, Adap-τ, SimGCL) on Yelp2018, Gowalla, and Amazon-Book under an unbiased (uniformly distributed) test setting.
 
 <p align="center">
-  <img src="assets/architecture.png" alt="PAAC architecture: Supervised Alignment Module and Re-weighting Contrast Module" width="100%">
+  <img src="architecture.png" alt="PAAC architecture: Supervised Alignment Module and Re-weighting Contrast Module" width="100%">
 </p>
 <p align="center"><em>Figure: Overview of PAAC. The Supervised Alignment Module transfers supervisory signal from popular to unpopular items interacted with by the same user; the Re-weighting Contrast Module re-balances positive/negative sample weights across popularity groups before the final prediction step.</em></p>
 
